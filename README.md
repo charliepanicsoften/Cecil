@@ -9,7 +9,7 @@ var bot = new Discord.Client({
 });
 
 bot.on('ready', function() {
-    console.log('Logged in as %s - %s\n', bot.Cecil, bot.id);
+    console.log('Logged in as %s - %s\n', bot.name, bot.id);
 });
 
 bot.on('message', function(user, userID, channelID, message, event) {
